@@ -1,0 +1,45 @@
+<!DOCTYPE html><html><head><title>StopWatch</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+   <section>
+      <div class="stopwatch">
+         <div class="box">
+            <div class="hour">00</div>
+            <div class="minute">00</div>
+            <div class="second">00</div>
+            <div class="msecond">00</div>
+         </div>
+         <div class="box">
+            <button class="start btn">старт</button>
+            <button class="pause">пауза</button>
+            <button class="count">отсечка</button>
+            <button class="stop">стоп</button>
+         </div>
+
+         <div class="result">
+            <table class="result_logo">
+               <caption>Результаты</caption>
+               <tr>
+                  <td>№</td>
+                  <td>Общее время</td>
+                  <td>От первого</td>
+                  <td>От предыдущего</td>
+               </tr>
+            </table>
+            <div class="result_items">
+               <table>
+                  <tbody id="time_items">
+                  </tbody>
+               </table>
+               <div class="scrollToMe"></div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <script src="js/main.js"></script>
+</body>
+</html>
