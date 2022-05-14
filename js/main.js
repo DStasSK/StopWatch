@@ -48,7 +48,7 @@ function startTimer(){
 			time /= 60;               // общее количество часов
 			if(time > results.hour){
 				results.hour = time;
-				hour = time%24;
+				hour = time;
 				// остановка секутдомера
 				if(hour > 999){
 					hour = 999;
